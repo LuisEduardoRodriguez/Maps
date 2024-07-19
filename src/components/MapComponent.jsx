@@ -14,7 +14,7 @@ const MapComponent = () => {
 
     loader.load().then(() => {
       const map = new google.maps.Map(mapRef.current, {
-        center: { lat: 41.3851, lng: 2.1734 },
+        center: { lat: 4.5755318, lng: -74.2548433 },
         zoom: 13,
       });
 
